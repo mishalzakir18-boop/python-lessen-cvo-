@@ -6,3 +6,4 @@ print(type(getal_tekst), type(getal_int), type(getal_float))
 invoer = input('Geef een decimaal getal in: ')
 getal  = float(invoer)
 print('Het dubbele is:', getal * 2)
+
