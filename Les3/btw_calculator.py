@@ -13,7 +13,7 @@ bedrag = float(bedrag_str)
 tarief_str = input("Welk BTW-tarief? (6, 12 of 21): ") 
 tarief = int(tarief_str)
 
-btw_bedrag = bedrag * (tarief / 100)
+btw_bedrag = bedrag * (tarief / 100) 
 totaal = bedrag + btw_bedrag
 
 print("-" * 45)

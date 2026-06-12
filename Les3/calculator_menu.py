@@ -32,7 +32,7 @@ while True:
     print("=" * 45)
     print("1) BTW-Calculator (Les 3)")
     print("2) Kortingscalculator (Les 4)")
-    print("3) Werf- & Stellingveiligheid (Les 4)")
+    print("3) Werf- & Stellingveiligheid (Les 4)") 
     print("4) Applicatie afsluiten")
     print("=" * 45)
 

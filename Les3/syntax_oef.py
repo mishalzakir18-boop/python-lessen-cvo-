@@ -10,4 +10,4 @@ temperatuur = float(input("Temperatuur in °C: "))
 if temperatuur > 37.5:
     print("Koorts!")
 
-print("Het bedrag is: " + str(100 * 1.21))
+print("Het bedrag is: " + str(100 * 1.21)) 

@@ -11,7 +11,7 @@ fahrenheit_input = float(input("Geef een temperatuur in °F: "))
 celsius_output = (fahrenheit_input - 32) * 5 / 9
 
 print(f"{fahrenheit_input:.1f} °F = {celsius_output:.1f} °C")
-
+ 
 
 fahrenheit_value = float(input("Geef een temperatuur in °F: "))
 celsius_value = (fahrenheit_value - 32) * 5 / 9
