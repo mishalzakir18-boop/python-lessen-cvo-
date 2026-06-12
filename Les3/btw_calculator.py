@@ -10,7 +10,7 @@ print("=" * 45)
 bedrag_str = input("Voer het bedrag in (excl. BTW, in €): ")
 bedrag = float(bedrag_str)
 
-tarief_str = input("Welk BTW-tarief? (6, 12 of 21): ")
+tarief_str = input("Welk BTW-tarief? (6, 12 of 21): ") 
 tarief = int(tarief_str)
 
 btw_bedrag = bedrag * (tarief / 100)
