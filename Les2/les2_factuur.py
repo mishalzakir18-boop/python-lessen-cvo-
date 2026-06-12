@@ -1,5 +1,5 @@
 klant = input("Naam van de klant: ")
-aantal = int(input("Aantal producten: "))
+aantal = int(input("Aantal producten: ")) 
 
 if aantal < 0:
     print("FOUT: aantal producten mag niet negatief zijn.")
