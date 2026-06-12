@@ -5,7 +5,7 @@ klanttype = input("Geef klanttype (Standaard, Zilver, Goud): ")
 
 if totaalbedrag >= 2500:
     korting_pct = 15
-elif totaalbedrag >= 1000:
+elif totaalbedrag >= 1000: 
     korting_pct = 10
 elif totaalbedrag >= 500:
     korting_pct = 5
