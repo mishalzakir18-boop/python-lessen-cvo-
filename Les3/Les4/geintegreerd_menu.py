@@ -1,40 +1,15 @@
-while True:
-    print("\n1) BTW berekenen")
-    print("2) Temperatuur omrekenen")
-    print("3) Stoppen")
-
-    keuze = input("Kies: ")
-
-    if keuze == "1":
-        bedrag = float(input("Bedrag: "))
-        btw = bedrag * 0.21
-        print("BTW:", btw)
-        print("Totaal:", bedrag + btw)
-
-    elif keuze == "2":
-        c = float(input("Celsius: "))
-        print("Fahrenheit:", c * 1.8 + 32)
-
-    elif keuze == "3":
-        print("Stop")
-        break
-
-    else:
-        print("Ongeldige keuze")
-
-
-
-# geintegreerd_menu.py – gemaakt door [Mishal_Ali]
+# geintegreerd_menu.py – gemaakt door [jouw naam]
 
 while True:
     print("\n" + "=" * 45)
     print(" HOOFDMENU ERPM-SYSTEEM PRIMABOUW")
     print("=" * 45)
-    print("1) BTW-Calculator (Les 3)")
-    print("2) Kortingscalculator (Les 4)")
-    print("3) Werf- & Stellingveiligheid (Les 4)")
-    print("4) Applicatie afsluiten")
+    print("1: BTW-Calculator (Les 3)")
+    print("2: Kortingscalculator (Les 4)")
+    print("3: Werf- & Stellingveiligheid (Les 4)")
+    print("4: Applicatie afsluiten")
     print("=" * 45)
+
 
     keuze = input("Maak uw keuze (1-4): ")
 
@@ -102,4 +77,4 @@ while True:
         break
 
     else:
-        print(" Ongeldige keuze! Voer een cijfer van 1 tot en met 4 in.")
+        print("❌ Ongeldige keuze! Voer een cijfer van 1 tot en met 4 in.")
