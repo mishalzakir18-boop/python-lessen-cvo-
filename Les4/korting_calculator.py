@@ -13,7 +13,7 @@ elif totaalbedrag >= 1000:
 elif totaalbedrag >= 500:
     korting_pct = 5
 else:
-    korting_pct = 0
+    korting_pct = 0 
 
 kortingsbedrag = totaalbedrag * (korting_pct / 100)
 eindbedrag = totaalbedrag - kortingsbedrag
